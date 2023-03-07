@@ -21,5 +21,5 @@ else
 }
 function klik()
 {
-    alert("test")
+    alert("Matthijs heeft hiermee geholpen. Zijn site: matthijsveldkamp.github.io :)")
 };
