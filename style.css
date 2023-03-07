@@ -13,16 +13,29 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: -150px;
-    font-size: 21px;
+    font-size: 27px;
     width: 100px;
     font-weight: bolder;
 }
 .container{
+    background-image: url('Foto.png');
     margin-top: 250px;
     align-content: center;
     justify-content: center;
     align-items: center;
     display: flex;
+    background: #fff;
+    padding: 50px;
+    height: 350px;
+    width: 300px;
+    border-radius: 50px;
+}
+.container2{
+    margin-top: 25px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: none;
     background: #fff;
     padding: 50px;
     height: 350px;
@@ -43,4 +56,12 @@ body{
 .container .knop:hover{
     transform: translateY(10px);
     background: #00eaff;
+    color: #000000;
+}
+.container2 img{
+    margin-top: -10px;
+    margin-left: -25px;
+    border-radius: 25px;
+    height: 275px;
+    width: 250px;
 }
