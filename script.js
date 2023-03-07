@@ -1,0 +1,4 @@
+function klik()
+{
+    alert("test")
+}
